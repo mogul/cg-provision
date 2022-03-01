@@ -9,3 +9,4 @@ resource "aws_wafv2_regex_pattern_set" "jndi_regex" {
       regex_string = regular_expression.value
     }
   }
+}
